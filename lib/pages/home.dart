@@ -9,7 +9,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBar(),
-      body: Center(child: Text("Hello, World")),
+      body: Center(
+        child: Text(
+          "Hello, World", 
+          style: TextStyle(color: Colors.black, fontSize: 48, fontWeight: FontWeight.bold),
+        )
+      ),
     );
   }
 
